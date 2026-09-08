@@ -110,6 +110,4 @@ times, and compared only the sequential and unsafe results.
 | `scenario_5` | 100 | 8 | 4,000,000,000 | 59 | 41 |
 
 These counts will change between computers and runs. An unsafe result matching
-the sequential value does not prove that the program is thread-safe.
-
-Times vary by machine. Increase or decrease `TOTAL_OPERATIONS` as needed.
+the sequential value does not prove that the program is thread-safe.  Times vary by machine and compiler. 
