@@ -1,0 +1,5 @@
+foreach(scenario RANGE 1 5)
+    add_executable(scenario_${scenario} scenario_${scenario}.cpp)
+    target_compile_features(scenario_${scenario} PRIVATE cxx_std_17)
+    target_link_libraries(scenario_${scenario} PRIVATE Threads::Threads)
+endforeach()
